@@ -1,0 +1,17 @@
+Al consultar la ruta GET /reportes, el servidor responde correctamente con un estado 200 OK y devuelve el siguiente arreglo con el reporte almacenado en memoria:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  },
+  {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+]
+
+
+Esto demuestra que el servidor procesa y lista los datos guardados en el array de forma exitosa. 
